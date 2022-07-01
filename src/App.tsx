@@ -1,7 +1,7 @@
 // JSX = Javascript + xml
 import { Header } from './components/Header'
 import { Post } from './components/Post';
-import { Sidebar } from './components/Sidebar'
+import { Sidebar } from './components/Sidebar';
 
 import styles from './App.module.css';
 
@@ -20,7 +20,7 @@ export function App() {
       content: [
         { type: 'paragraph', content: 'Fala galeraa 👋', },
         { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-        { type: 'link', content: 'jane.design/doctorcare' },
+        { type: 'link', content: 'josias.design/doctorcare' },
       ],
       publishedAt: new Date('2022-06-27 20:00:00'),
     },
